@@ -3,7 +3,8 @@
 margin: 0 auto;
 }
 nav{
-text-align: center;}
+text-align: center;
+}
 nav a{
     text-decoration: none;
     color: white;}
@@ -17,7 +18,8 @@ main section{text-align: center;}
 body {
     background-color: white; 
 }
-header {text-align: center;
+header {
+    text-align: center;
     background-color:#396E94;
 }
 nav a:hover {
