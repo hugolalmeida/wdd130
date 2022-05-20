@@ -23,7 +23,7 @@ body {
     padding: 0; 
 }
 header {
-    text-align: center;
+    /* text-align: center; */
     background-color:#396E94;
 }
 nav a:hover {
