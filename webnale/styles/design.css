@@ -117,26 +117,32 @@ header {
     width: 300px;
 }
 .book {
-    border-radius: 5px;
-    padding: 15px 20px;
-    font-size: 18px;
+    padding: 15px 25px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
     text-decoration: none;
+    cursor: pointer;
     color: white;
     background-color: #091B50;
-    text-align: center;
-    align-self: center;
-    margin-bottom: 40px;
-    transition: transform .5s;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
 }
 .book:hover {
-    opacity: .6;
-    transform: scale(1.1);
+    background-color: #4260bb;
 }
+.book:active {
+    background-color: #4260bb;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
 
 /* div */
 #background {
     background-color: white;
-    height: 100%;
+    height: 300px;
     grid-column: 1/11;
     grid-row: 4/9;
 }
